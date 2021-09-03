@@ -23,35 +23,35 @@ class Example extends Component {
       <DNDComponent data={[
         {
           id: 1,
-          text: 'Write a cool JS library',
+          content: 'Write a cool JS library',
         },
         {
           id: 2,
-          text: 'Make it generic enough',
+          content: 'Make it generic enough',
         },
         {
           id: 3,
-          text: 'Write README',
+          content: 'Write README',
         },
         {
           id: 4,
-          text: 'Create some examples',
+          content: 'Create some examples',
         },
         {
           id: 5,
-          text: 'Spam in Twitter and IRC to promote it (note that this element is taller than the others)',
+          content: 'Spam in Twitter and IRC to promote it (note that this element is taller than the others)',
         },
         {
           id: 6,
-          text: '???',
+          content: '???',
         },
         {
           id: 7,
-          text: 'PROFIT',
+          content: 'PROFIT',
         },
         {
           id: 8,
-          text: 'AS IS AS',
+          content: 'AS IS AS',
         },
       ]} />
     )

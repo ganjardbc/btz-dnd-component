@@ -27,7 +27,7 @@ const DNDContainer = (props) => {
 					key={card.id}
 					index={index}
 					id={card.id}
-					content={card.text}
+					content={card.content}
 					moveCard={moveCard}
 				/>
       		)
