@@ -1,6 +1,22 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React, {Component} from 'react'
+import DNDContainer from './components/DNDContainer'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+class DNDComponent extends Component {
+	constructor (props) {
+    	super(props)
+    	this.state = {
+        	data: props.data ? props.data : []
+    	}
+    }
+
+	render () {
+		const {data} = this.state 
+		return (
+			<div>
+				<DNDContainer data={data} />
+			</div>
+		)
+	}
 }
+
+export default DNDComponent
