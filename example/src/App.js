@@ -1,7 +1,6 @@
 import React from 'react'
 
 import DNDComponent from 'btz-dnd-component'
-import 'btz-dnd-component/dist/index.css'
 
 const App = () => {
   return (
